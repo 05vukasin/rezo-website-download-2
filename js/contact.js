@@ -15,7 +15,7 @@
 
         try {
             // Slanje podataka na server
-            const response = await fetch('/api/SupportEmail/send', {
+            const response = await fetch('https://rezotest-dkg4dsdze2c3e7c5.italynorth-01.azurewebsites.net/api/SupportEmail/send', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
