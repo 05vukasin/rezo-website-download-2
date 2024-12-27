@@ -1,0 +1,7 @@
+{
+    "hosting": {
+        "public": "./",
+        "site": "rezo-site",
+        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    }
+}
