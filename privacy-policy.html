@@ -34,95 +34,45 @@
 </head>
 
 <body>
-
     <!-- Back Arrow -->
     <a id="back-arrow" href="index.html">
-        &#8592; <span id="back-text">Home</span>
+        &#8592; <span id="back-text"></span>
     </a>
 
     <!-- Language Switch Button -->
     <button id="language-switch" class="btn btn-primary">ENG/SRB</button>
 
     <div class="container py-5">
-        <h1 id="title" class="text-center mb-4">Privacy Policy</h1>
-        <p id="intro">
-            At Rezo, your privacy is our top priority. This Privacy Policy explains what information we collect, how we use it, how we protect it, and your rights regarding your data. By using the Rezo application, you agree to the practices outlined in this policy.
-        </p>
-        
-        <h2 id="info-title">Information We Collect</h2>
-        <p id="info-content">
-            We collect the following types of information:
-            <ul>
-                <li><b>Personal Information:</b> Such as your name, email address, and contact details provided during registration.</li>
-                <li><b>Reservation Details:</b> Data about your clients and their reservations, including schedules, dates, and times.</li>
-                <li><b>Uploaded Content:</b> Images and other files uploaded to the application.</li>
-                <li><b>Login Credentials:</b> Securely hashed and stored passwords.</li>
-                <li><b>Usage Data:</b> Information about how you interact with the app to help us improve its functionality.</li>
-            </ul>
-        </p>
-        
-        <h2 id="usage-title">How We Use Your Information</h2>
-        <p id="usage-content">
-            Your information is used to:
-            <ul>
-                <li>Provide and maintain the core functionalities of the Rezo application.</li>
-                <li>Help you manage reservations and client information efficiently.</li>
-                <li>Allow you to upload and manage images related to your reservations.</li>
-                <li>Ensure the security and integrity of your login credentials and other data.</li>
-                <li>Analyze user interactions to enhance the user experience and develop new features.</li>
-            </ul>
-        </p>
-        
-        <h2 id="protection-title">How We Protect Your Information</h2>
-        <p id="protection-content">
-            We take data security seriously. The following measures are in place:
-            <ul>
-                <li>All passwords are securely hashed and stored, ensuring they cannot be easily decrypted.</li>
-                <li>Your uploaded images and files are encrypted and securely stored.</li>
-                <li>We use industry-standard security protocols to protect your data against unauthorized access.</li>
-                <li>Regular security audits and updates are conducted to maintain the integrity of our systems.</li>
-            </ul>
-        </p>
-        
-        <h2 id="third-party-title">Third-Party Services</h2>
-        <p id="third-party-content">
-            We may use third-party services for:
-            <ul>
-                <li>Data storage and backup to ensure your data is safe and always available.</li>
-                <li>Analytics to improve the performance and features of the application.</li>
-                <li>Security enhancements to protect your data from potential threats.</li>
-            </ul>
-            All third-party providers are compliant with international data protection standards.
-        </p>
-        
-        <h2 id="rights-title">Your Rights</h2>
-        <p id="rights-content">
-            As a user of Rezo, you have the following rights:
-            <ul>
-                <li>The right to access your personal data and reservation details stored in the application.</li>
-                <li>The right to modify or delete your information at any time.</li>
-                <li>The right to withdraw your consent for data usage where applicable.</li>
-            </ul>
-            For any inquiries or requests, please contact us at <a href="mailto:support@rezo.rs">support@rezo.rs</a>.
-        </p>
-        
-        <h2 id="changes-title">Changes to This Policy</h2>
-        <p id="changes-content">
-            This Privacy Policy may be updated periodically to reflect changes in our practices or legal requirements. Please check this page regularly for updates. The last update was on [insert date here].
-        </p>
-        
-        <h2 id="contact-title">Contact Us</h2>
-        <p id="contact-content">
-            If you have any questions, concerns, or requests regarding this Privacy Policy, please reach out to our support team at <a href="mailto:support@rezo.rs">support@rezo.rs</a>.
-        </p>
+        <h1 id="title"></h1>
+        <p id="intro"></p>
+
+        <h2 id="info-title"></h2>
+        <p id="info-content"></p>
+
+        <h2 id="usage-title"></h2>
+        <p id="usage-content"></p>
+
+        <h2 id="protection-title"></h2>
+        <p id="protection-content"></p>
+
+        <h2 id="third-party-title"></h2>
+        <p id="third-party-content"></p>
+
+        <h2 id="rights-title"></h2>
+        <p id="rights-content"></p>
+
+        <h2 id="changes-title"></h2>
+        <p id="changes-content"></p>
+
+        <h2 id="contact-title"></h2>
+        <p id="contact-content"></p>
     </div>
-    
 
     <script>
         const translations = {
     sr: {
         title: "Politika privatnosti",
-        intro: "U Rezo aplikaciji vaša privatnost nam je veoma važna. Ova politika privatnosti objašnjava koje informacije prikupljamo, kako ih koristimo, kako ih štitimo i vaša prava u vezi sa vašim podacima.",
+        intro: "U Rezo aplikaciji vaša privatnost nam je veoma važna. Ova politika privatnosti objašnjava koje informacije prikupljamo, kako ih koristimo, kako ih štitimo i vaša prava u vezi sa vašim podacima. Korišćenjem Rezo aplikacije pristajete na prakse opisane u ovoj politici.",
         "info-title": "Informacije koje prikupljamo",
         "info-content": `
             Možemo prikupljati sledeće vrste informacija:
@@ -130,60 +80,60 @@
                 <li><b>Lične informacije:</b> Kao što su vaše ime, email adresa i kontakt podaci koje pružate prilikom registracije.</li>
                 <li><b>Detalji rezervacija:</b> Podaci o vašim klijentima i njihovim rezervacijama, uključujući termine, datume i vreme.</li>
                 <li><b>Dodati sadržaj:</b> Slike i drugi fajlovi koje postavljate u aplikaciju.</li>
-                <li><b>Prijavne informacije:</b> Sigurno sačuvane i hashirane lozinke.</li>
-                <li><b>Podaci o korišćenju:</b> Informacije o tome kako koristite aplikaciju, što nam pomaže da je unapredimo.</li>
+                <li><b>Prijavne informacije:</b> Lozinke se čuvaju na siguran način koristeći hashiranje u bazi podataka.</li>
+                <li><b>Podaci o korišćenju:</b> Informacije o načinu korišćenja aplikacije za unapređenje funkcionalnosti.</li>
             </ul>
         `,
         "usage-title": "Kako koristimo vaše informacije",
         "usage-content": `
             Vaši podaci se koriste za:
             <ul>
-                <li>Obezbeđivanje i održavanje osnovnih funkcionalnosti aplikacije Rezo.</li>
-                <li>Pomoć u upravljanju rezervacijama i informacijama o klijentima.</li>
-                <li>Omogućavanje dodavanja i upravljanja slikama vezanim za rezervacije.</li>
-                <li>Sigurnu obradu prijavnih podataka i zaštitu vaših informacija.</li>
-                <li>Analizu korisničkih interakcija radi unapređenja korisničkog iskustva i razvoja novih funkcionalnosti.</li>
+                <li>Omogućavanje osnovnih funkcionalnosti aplikacije Rezo.</li>
+                <li>Pomoć u organizaciji i upravljanju rezervacijama i klijentima.</li>
+                <li>Sigurno čuvanje i upravljanje slikama vezanim za rezervacije.</li>
+                <li>Osiguranje sigurnosti vaših prijavnih podataka i zaštitu ličnih informacija.</li>
+                <li>Analizu korisničkih podataka radi unapređenja aplikacije i novih funkcionalnosti.</li>
             </ul>
         `,
         "protection-title": "Kako štitimo vaše informacije",
         "protection-content": `
-            Ozbiljno shvatamo zaštitu podataka i primenjujemo sledeće mere:
+            Zaštita vaših podataka je naš prioritet i preduzimamo sledeće mere:
             <ul>
-                <li>Sve lozinke se sigurno hashiraju i čuvaju, čime se onemogućava njihovo lako dekodiranje.</li>
-                <li>Slike i fajlovi koje postavljate su enkriptovani i sigurno sačuvani.</li>
-                <li>Koristimo industrijske standarde za zaštitu podataka od neovlašćenog pristupa.</li>
-                <li>Redovno sprovodimo sigurnosne provere i ažuriranja sistema.</li>
+                <li>Hashiranje i sigurno čuvanje lozinki u bazi podataka.</li>
+                <li>Enkripcija slika i fajlova koje postavljate u aplikaciju.</li>
+                <li>Korišćenje industrijskih standarda za zaštitu podataka od neovlašćenog pristupa.</li>
+                <li>Redovno sprovođenje sigurnosnih provera i ažuriranja sistema.</li>
             </ul>
         `,
         "third-party-title": "Usluge trećih strana",
         "third-party-content": `
             Možemo koristiti usluge trećih strana za:
             <ul>
-                <li>Skladištenje i bekap podataka kako bismo osigurali njihovu bezbednost i dostupnost.</li>
-                <li>Analizu radi poboljšanja performansi i funkcionalnosti aplikacije.</li>
-                <li>Sigurnosne nadogradnje za zaštitu vaših podataka od potencijalnih pretnji.</li>
+                <li>Skladištenje i bekap podataka kako bismo osigurali njihovu sigurnost i dostupnost.</li>
+                <li>Analizu radi poboljšanja performansi aplikacije.</li>
+                <li>Implementaciju sigurnosnih nadogradnji za zaštitu podataka od potencijalnih pretnji.</li>
             </ul>
-            Sve usluge trećih strana su usklađene sa međunarodnim standardima zaštite podataka.
+            Sve treće strane su usklađene sa međunarodnim standardima zaštite podataka.
         `,
         "rights-title": "Vaša prava",
         "rights-content": `
             Kao korisnik Rezo aplikacije imate sledeća prava:
             <ul>
-                <li>Pravo na pristup svojim ličnim podacima i detaljima rezervacija.</li>
-                <li>Pravo na izmenu ili brisanje svojih podataka u bilo kom trenutku.</li>
+                <li>Pravo na pristup svojim podacima i detaljima rezervacija.</li>
+                <li>Pravo na izmene i brisanje podataka u bilo kom trenutku.</li>
                 <li>Pravo na povlačenje saglasnosti za obradu podataka gde je to primenljivo.</li>
             </ul>
-            Za bilo kakva pitanja ili zahteve, kontaktirajte nas na <a href="mailto:support@rezo.rs">support@rezo.rs</a>.
+            Za više informacija, kontaktirajte nas putem <a href="mailto:support@rezo.rs">support@rezo.rs</a>.
         `,
         "changes-title": "Izmene ove politike",
-        "changes-content": "Možemo povremeno ažurirati ovu politiku privatnosti kako bismo odrazili promene u našim praksama ili zakonskim zahtevima. Molimo vas da redovno proveravate ovu stranicu za ažuriranja.",
+        "changes-content": "Ova politika privatnosti može biti ažurirana kako bismo odrazili promene u našim praksama ili zakonskim zahtevima. Poslednje ažuriranje: [unesite datum].",
         "contact-title": "Kontaktirajte nas",
-        "contact-content": "Ako imate bilo kakva pitanja ili nedoumice u vezi sa ovom politikom privatnosti, kontaktirajte naš tim za podršku na <a href='mailto:support@rezo.rs'>support@rezo.rs</a>.",
+        "contact-content": "Ako imate bilo kakva pitanja, kontaktirajte nas putem emaila na <a href='mailto:support@rezo.rs'>support@rezo.rs</a>.",
         "back-text": "Početna"
     },
     en: {
         title: "Privacy Policy",
-        intro: "At Rezo, your privacy is important to us. This Privacy Policy explains what information we collect, how we use it, how we protect it, and your rights regarding your data.",
+        intro: "At Rezo, your privacy is important to us. This Privacy Policy explains what information we collect, how we use it, how we protect it, and your rights regarding your data. By using the Rezo application, you agree to the practices outlined in this policy.",
         "info-title": "Information We Collect",
         "info-content": `
             We may collect the following types of information:
@@ -200,55 +150,55 @@
             Your information is used to:
             <ul>
                 <li>Provide and maintain the core functionalities of the Rezo application.</li>
-                <li>Help you manage reservations and client information efficiently.</li>
-                <li>Allow you to upload and manage images related to your reservations.</li>
-                <li>Ensure the security and integrity of your login credentials and other data.</li>
-                <li>Analyze user interactions to enhance the user experience and develop new features.</li>
+                <li>Help you organize and manage reservations and client information.</li>
+                <li>Securely store and manage images related to your reservations.</li>
+                <li>Ensure the security and integrity of your login credentials.</li>
+                <li>Analyze user data to improve the application and develop new features.</li>
             </ul>
         `,
         "protection-title": "How We Protect Your Information",
         "protection-content": `
-            We take data security seriously. The following measures are in place:
+            We take the security of your data seriously and implement the following measures:
             <ul>
-                <li>All passwords are securely hashed and stored, ensuring they cannot be easily decrypted.</li>
-                <li>Your uploaded images and files are encrypted and securely stored.</li>
-                <li>We use industry-standard security protocols to protect your data against unauthorized access.</li>
-                <li>Regular security audits and updates are conducted to maintain the integrity of our systems.</li>
+                <li>Secure hashing and storage of passwords in our database.</li>
+                <li>Encryption of images and files uploaded to the application.</li>
+                <li>Use of industry-standard protocols to protect data against unauthorized access.</li>
+                <li>Regular security checks and system updates.</li>
             </ul>
         `,
         "third-party-title": "Third-Party Services",
         "third-party-content": `
             We may use third-party services for:
             <ul>
-                <li>Data storage and backup to ensure your data is safe and always available.</li>
+                <li>Data storage and backup to ensure its safety and availability.</li>
                 <li>Analytics to improve the performance and features of the application.</li>
-                <li>Security enhancements to protect your data from potential threats.</li>
+                <li>Security upgrades to protect data from potential threats.</li>
             </ul>
-            All third-party providers comply with international data protection standards.
+            All third-party services comply with international data protection standards.
         `,
         "rights-title": "Your Rights",
         "rights-content": `
             As a user of Rezo, you have the following rights:
             <ul>
-                <li>The right to access your personal data and reservation details stored in the application.</li>
+                <li>The right to access your data and reservation details.</li>
                 <li>The right to modify or delete your information at any time.</li>
-                <li>The right to withdraw your consent for data usage where applicable.</li>
+                <li>The right to withdraw consent for data processing where applicable.</li>
             </ul>
-            For any inquiries or requests, please contact us at <a href="mailto:support@rezo.rs">support@rezo.rs</a>.
+            For inquiries, contact us at <a href="mailto:support@rezo.rs">support@rezo.rs</a>.
         `,
         "changes-title": "Changes to This Policy",
-        "changes-content": "This Privacy Policy may be updated periodically to reflect changes in our practices or legal requirements. Please check this page regularly for updates.",
+        "changes-content": "This Privacy Policy may be updated periodically to reflect changes in our practices or legal requirements. Last updated: [insert date].",
         "contact-title": "Contact Us",
-        "contact-content": "If you have any questions, concerns, or requests regarding this Privacy Policy, please reach out to our support team at <a href='mailto:support@rezo.rs'>support@rezo.rs</a>.",
+        "contact-content": "If you have any questions, contact us at <a href='mailto:support@rezo.rs'>support@rezo.rs</a>.",
         "back-text": "Home"
     }
 };
 
 
+        // Default language is English
         let currentLanguage = "en";
 
-        document.getElementById("language-switch").addEventListener("click", () => {
-            currentLanguage = currentLanguage === "en" ? "sr" : "en";
+        function updateContent() {
             const content = translations[currentLanguage];
             for (const key in content) {
                 const element = document.getElementById(key);
@@ -256,6 +206,15 @@
                     element.innerHTML = content[key];
                 }
             }
+        }
+
+        // Initialize default content
+        updateContent();
+
+        // Toggle language on button click
+        document.getElementById("language-switch").addEventListener("click", () => {
+            currentLanguage = currentLanguage === "en" ? "sr" : "en";
+            updateContent();
         });
     </script>
 </body>
