@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form-container">
+        <!-- Personal Details Card -->
+        <div class="card" id="personal-details">
+            <h2>Lični podaci</h2>
+            <form id="personal-details-form">
+                <div>
+                    <label for="name">Ime i prezime:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="phone">Broj telefona:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="button-container">
+                    <button type="button" id="start-button">Započni</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Test Instructions Card -->
+        <div class="card" id="test-instructions" style="display: none;">
+            <h2>Uputstvo za test</h2>
+            <p>Molimo vas da pažljivo pročitate sledeće pre nego što nastavite:</p>
+            <ul>
+                <li>-Odgovorite na sva pitanja najbolje što možete.</li>
+                <li>-Detaljno obrazložite svoje odgovore kada je potrebno.</li>
+                <li>-Možete se vratiti na prethodna pitanja ako je potrebno.</li>
+            </ul>
+            <div class="button-container">
+                <button type="button" class="prev-button">Nazad</button>
+                <button type="button" id="proceed-to-questions">Nastavi</button>
+            </div>
+        </div>
+
+        <!-- Question 1 -->
+        <div class="card question-card" style="display: none;">
+            <h2>Frage 1</h2>
+            <p class="question-text">Warum möchten Sie in einem Callcenter arbeiten?</p>
+            <textarea id="question1" name="answer" rows="5" placeholder="Schreiben Sie Ihre Antwort hier..."></textarea>
+            <div class="button-container">
+                <button type="button" class="prev-button">Zurück</button>
+                <button type="button" class="next-button">Weiter</button>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="card question-card" style="display: none;">
+            <h2>Frage 2</h2>
+            <p class="question-text">Wie würden Sie mit einem schwierigen Kunden umgehen?</p>
+            <textarea id="question2" name="answer" rows="5" placeholder="Schreiben Sie Ihre Antwort hier..."></textarea>
+            <div class="button-container">
+                <button type="button" class="prev-button">Zurück</button>
+                <button type="button" class="next-button">Weiter</button>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="card question-card" style="display: none;">
+            <h2>Frage 3</h2>
+            <p class="question-text">Welche Erfahrungen haben Sie mit der deutschen Sprache?</p>
+            <textarea id="question3" name="answer" rows="5" placeholder="Schreiben Sie Ihre Antwort hier..."></textarea>
+            <div class="button-container">
+                <button type="button" class="prev-button">Zurück</button>
+                <button type="button" class="next-button">Weiter</button>
+            </div>
+        </div>
+
+        <!-- Final Submission Card -->
+        <div class="card" id="submission" style="display: none;">
+            <h2>Pošaljite prijavu</h2>
+            <p>Hvala što ste popunili prijavu. Molimo vas da pregledate svoje odgovore i pošaljete.</p>
+            <div class="button-container">
+                <button type="button" class="prev-button">Nazad</button>
+                <button type="submit" id="submit-button">Pošalji</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
